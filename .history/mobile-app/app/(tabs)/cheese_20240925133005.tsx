@@ -16,7 +16,7 @@ export default function Page() {
 
 const makeItPretty = StyleSheet.create({
     titleName: {
-        borderColor: "pink",
+        borderColor: "yellow",
         borderWidth: 5,
         borderStyle: "solid",
     }

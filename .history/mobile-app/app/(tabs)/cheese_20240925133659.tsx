@@ -19,5 +19,7 @@ const makeItPretty = StyleSheet.create({
         borderColor: "pink",
         borderWidth: 5,
         borderStyle: "solid",
+        width: 1000,
+        height: 300,
     }
 })
