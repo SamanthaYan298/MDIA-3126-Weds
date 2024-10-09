@@ -7,7 +7,7 @@ export default function Page() {
         <Text className='border-red-700, border-2'>This page is a Page about cheese. 🐭 🧀</Text>
         <Link href="/" asChild>
             <Pressable>
-                <Text style={makeItPretty.titleName}>Index 🍓</Text>
+                <Text className='titleName'>Index 🍓</Text>
             </Pressable>
         </Link>
     </View>
@@ -16,7 +16,7 @@ export default function Page() {
 
 const makeItPretty = StyleSheet.create({
     titleName: {
-        borderColor: "pink",
+        borderColor: "yellow",
         borderWidth: 5,
         borderStyle: "solid",
     }
