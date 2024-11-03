@@ -21,7 +21,6 @@ export default function Home() {
   // asking some other computer somewhere to send out the data but do not know how long it will take
 
   async function fetchPictures() {
-    setLoading(true);
     const API_URL =
       "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=5" // API Demo key
     const response = await fetch(API_URL) // ask to wait here until we have actual data to get
@@ -32,7 +31,7 @@ export default function Home() {
     setPictureContents(data);
     // console.log(data); remember to remove it, otherwise it will show to users
     // debugger;
-    setLoading(false);
+    setLoading(false)
   }
 
   const Header = () => {
